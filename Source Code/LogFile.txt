@@ -1,0 +1,98 @@
+Daniel Roberts
+Daoqun Yang
+
+Version 1:
+	Neural Net:
+		Embedding Layer
+		Reshaping Layer
+		Dense layer of 250 neurons and Relu activation
+		Dense layer of 250 neurons and Relu activation
+		Dense output Layer
+	Hyper Parameters:
+		Number of games = 500
+		Gamma = 0.9
+		Epsilon = 1
+		Epsilon Dec = 0.95
+		Epsilon End = 0
+	Win condition = Nake a drop off
+	Earliest win of 8 models = 43 games
+		
+		
+Version 2:
+	Neural Net:
+		Embedding Layer
+		Reshaping Layer
+		Dense layer of 250 neurons and Relu activation
+		Dense layer of 250 neurons and Relu activation
+		Dense output Layer
+	Hyper Parameters:
+		Number of games = 200
+		Gamma = 0.9
+		Epsilon = 1
+		Epsilon Dec = 0.95
+		Epsilon End = 0
+
+	Added punishment for repeat actions
+
+	Win condition = Score 500 points
+	Earliest win of 8 models = No wins
+
+Version 3:
+	Neural Net:
+		Embedding Layer
+		Reshaping Layer
+		Dense layer of 20 neurons and Relu activation
+		Dense layer of 15 neurons and Relu activation
+		Dense output layer
+	Hyper Parameters:
+		Number of games = 200
+		Gamma = 0.9
+		Epsilon = 1
+		Epsilon Dec = 0.99
+		Epsilon End = 0.05
+
+	Removed punishment for moving if near goal
+	Added reward for pickup
+
+	Win Condition = Score 500 points
+	Earliest Win of 8 models = 38 games
+
+Version 4:
+	Neural Net:
+		Embedding Layer
+		Reshaping Layer
+		Dense layer of 20 neurons and Relu activation
+		Dense layer of 15 neurons and Relu activation
+		Dense output layer
+	Hyper Parameters:
+		Number of games = 200
+		Gamma = 0.9
+		Epsilon = 1
+		Epsilon Dec = 0.99
+		Epsilon End = 0.05
+
+	Added reward for moving if near goal
+	Reduced reward for pickup
+
+	Win Condition = Score 500 points
+	Earliest Win of 8 models = 43 games
+		
+
+Version 5:
+	Neural Net:
+		Embedding Layer
+		Reshaping Layer
+		Dense layer of 50 neurons and Linear activation
+		Dense layer of 95 neurons and Relu activation
+		Dense output layer
+	Hyper Parameters:
+		Number of games = 200
+		Gamma = 0.9
+		Epsilon = 1
+		Epsilon Dec = 0.99
+		Epsilon End = 0.05
+
+	Increased repeat action punishment and number of moves required
+
+	Win Condition = Score 500 points
+	Earliest Win of 8 models = 47 games

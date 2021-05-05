@@ -1,0 +1,3 @@
+Updated game so it couldnt win by running into a wall alot
+Updated close reward to .5 from 1
+Updated pickup reward from 20 to 10

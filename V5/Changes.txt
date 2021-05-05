@@ -1,0 +1,1 @@
+Updated neurons to 55 and 95 respectively and updated first hidden layer to linear activation

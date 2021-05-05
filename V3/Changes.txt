@@ -1,0 +1,3 @@
+Added new reward calculations such as 0 for being near start/finish and  +20 pickup succesful
+
+2 hidden layers are now 20 and 15 respectivley

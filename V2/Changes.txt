@@ -1,0 +1,6 @@
+V2 - Updated reward to discourage repeat action
+
+1 Embedding layer
+1 Reshape layer
+250 in each of 2 hidden layers
+Output is also a dense layer of numAct
