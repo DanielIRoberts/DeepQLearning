@@ -2,7 +2,6 @@ General Info--------------------------------------------------------------------
 
 Name	- Daniel Roberts	
 	- Daoqun Yang			
-Assignment: Final Project (Reinforcement Learning On Game Playing)
 IDE	- Visual Studio Code
 Python Version - 3.7.2
 
